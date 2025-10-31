@@ -11,8 +11,7 @@ function App() {
     <>
     <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', width: "100%",
      overflowX: "hidden", alignItems: "stretch",}}>
-      <Navbar />  
-      <Toolbar />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/misiones" element={<Misiones />} />

@@ -2,7 +2,7 @@ import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => (
-  <AppBar position="fixed" sx={{ bgcolor: 'rgba(0,0,0,0.8)' }}>
+  <AppBar position="fixed" sx={{ bgcolor: '#000' }}>
     <Toolbar sx={{ justifyContent: 'space-between' }}>
       <Typography variant="h6">XXXXX Homepage</Typography>
       <Box>
